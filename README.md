@@ -6,5 +6,5 @@ Back in 2014, we ran a small but effective project called Listen Denton that cap
 
 We ended up aggregating these issues and solutions down into 6 projects, each being presented to city council with an associated technology solution. This was the first step into our path towards becoming a WhatWorksCity by Bloomberg Philanthropies.
 
-# Now
+## Now
 With our work in open data and open source, our group is striving towards building an interactive kiosk hosted in downtown Denton that can serve not only as a source of information, but also as a public way of collecting feedback from citizens. We'll populate the interface with helpful points around town, tourist markers, and other items - in addition to a capability of collecting user feedback.
