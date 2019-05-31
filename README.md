@@ -9,6 +9,30 @@ We ended up aggregating these issues and solutions down into 6 projects, each be
 ## Now
 With our work in open data and open source, our group is striving towards building an interactive kiosk hosted in downtown Denton that can serve not only as a source of information, but also as a public way of collecting feedback from citizens. We'll populate the interface with helpful points around town, tourist markers, and other items - in addition to a capability of collecting user feedback.
 
+## Project Purpose and Objectives
+
+### Purpose
+
+- The project will provide objective input from a less biased sample of Denton residents
+regarding their perceptions of and preferences for city government work.
+- The project will expand and improve the public's awareness and opinion of TechMill
+- The project will enable the city government to have a clearer picture of 
+public opinion and will enhance the use of objective data in steering city policy
+
+
+### Objectives
+- The project will gather Denton residents' structured and unstructured 
+  responses to a survey form
+- The survey will take no more than four minutes to complete, on average
+- The project will remain active long enough to collect 200 responses before
+  re-evaluating the project's purpose and related objectives
+- The project will provide a locally-sourced cognate to the city of Dallas kiosk
+  upon which the project is at least partially based
+- The project plans and code will be publicly available so the project will be 
+reproducible in other locations with little additional work beyond the 
+sourcing of parts and materials and the assembly of the project
+- The city council and city staff will have a positive perception of the project
+and will consider the data gathered to be valid and useful to their work
 
 ## Physical Design
 
