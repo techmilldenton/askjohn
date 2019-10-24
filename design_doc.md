@@ -68,3 +68,9 @@ Below is a list of potential public facing APIs that can be used as a source of 
 - **Reference:** https://medium.com/@jorenrui/fcc-local-weather-app-with-html5-geolocation-and-fcc-weather-api-e98c18b4b73d
 - **URL:** https://fcc-weather-api.glitch.me/api/current?lat=Lat&lon=Lon
 - **Notes:** Can be used right now for basic weather data, consider rate limiting and don't abuse it!
+
+### News API (DentonRC)
+
+- **Reference:** https://help.bloxcms.com/knowledge-base/applications/editorial/assets/tasks/article_504ccd62-2bfd-11e5-8804-131eebdc4425.html
+- **URL:** https://dentonrc.com/search/?f=rss&sd=desc&c[]=news/*
+- **Notes:** Used to fetch news / updates from the Denton Record Chronicle's website.
