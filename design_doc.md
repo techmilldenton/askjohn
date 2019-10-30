@@ -69,6 +69,9 @@ Below is a list of potential public facing APIs that can be used as a source of 
 - **URL:** https://fcc-weather-api.glitch.me/api/current?lat=Lat&lon=Lon
 - **Notes:** Can be used right now for basic weather data, consider rate limiting and don't abuse it!
 
+- Working code for weather radar image retrieval and formatting: https://github.com/jessehamner/WeatherWidget
+- Weather forecast (requires free account): https://darksky.net/dev/docs/faq
+
 ### News API (DentonRC)
 
 - **Reference:** https://help.bloxcms.com/knowledge-base/applications/editorial/assets/tasks/article_504ccd62-2bfd-11e5-8804-131eebdc4425.html
