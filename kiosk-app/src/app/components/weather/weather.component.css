@@ -1,0 +1,8 @@
+.weather-container {
+    width: 100%;
+    text-align: center;
+}
+
+#weather-table{
+    margin: 0 auto;
+}

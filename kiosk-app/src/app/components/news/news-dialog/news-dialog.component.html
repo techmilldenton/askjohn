@@ -1,0 +1,52 @@
+<h2>News</h2>
+
+<div class="table-row" *ngFor="articles of [newsList]">
+    <div class="news-info"><strong>{{ newsList.articles[0].title }}</strong><br>
+        <em>Source/Author: {{ newsList.articles[0].source.name }} {{ newsList.articles[0].author }}</em><br>
+        Description: {{ newsList.articles[0].description }}<br>
+    </div>
+    <div class="news-qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data={{ newsList.articles[0].url }}" /></div>
+</div>
+
+<div class="table-row" *ngFor="articles of [newsList]">
+    <div class="news-info"><strong>{{ newsList.articles[1].title }}</strong><br>
+        <em>Source/Author: {{ newsList.articles[1].source.name }} {{ newsList.articles[1].author }}</em><br>
+        Description: {{ newsList.articles[1].description }}<br>
+    </div>
+    <div class="news-qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data={{ newsList.articles[1].url }}" /></div>
+</div>
+
+<div class="table-row" *ngFor="articles of [newsList]">
+    <div class="news-info"><strong>{{ newsList.articles[2].title }}</strong><br>
+        <em>Source/Author: {{ newsList.articles[2].source.name }} {{ newsList.articles[2].author }}</em><br>
+        Description: {{ newsList.articles[2].description }}<br>
+    </div>
+    <div class="news-qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data={{ newsList.articles[2].url }}" /></div>
+</div>
+
+<div class="table-row" *ngFor="articles of [newsList]">
+    <div class="news-info"><strong>{{ newsList.articles[3].title }}</strong><br>
+        <em>Source/Author: {{ newsList.articles[3].source.name }} {{ newsList.articles[3].author }}</em><br>
+        Description: {{ newsList.articles[3].description }}<br>
+    </div>
+    <div class="news-qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data={{ newsList.articles[3].url }}" /></div>
+</div>
+
+<div class="table-row" *ngFor="articles of [newsList]">
+    <div class="news-info"><strong>{{ newsList.articles[4].title }}</strong><br>
+        <em>Source/Author: {{ newsList.articles[4].source.name }} {{ newsList.articles[4].author }}</em><br>
+        Description: {{ newsList.articles[4].description }}<br>
+    </div>
+    <div class="news-qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data={{ newsList.articles[4].url }}" /></div>
+</div>
+
+<div class="table-row" *ngFor="articles of [newsList]">
+    <div class="news-info"><strong>{{ newsList.articles[5].title }}</strong><br>
+        <em>Source/Author: {{ newsList.articles[5].source.name }} {{ newsList.articles[5].author }}</em><br>
+        Description: {{ newsList.articles[5].description }}<br>
+    </div>
+    <div class="news-qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data={{ newsList.articles[5].url }}" /></div>
+</div>
+
+<br>
+<div id="news-footer"><a href="https://newsapi.org/">powered by newsapi.org</a> </div>
