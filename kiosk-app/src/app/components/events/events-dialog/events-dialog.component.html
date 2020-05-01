@@ -1,0 +1,65 @@
+<script src="http://api.eventful.com/js/api"></script>
+
+
+<h2 mat-dialog-title>Events</h2>
+
+<!-- *ngFor = "let events of eventsList"
+testing <div> w/o for loop
+<div>
+    {{ eventsList.title | json }}
+</div>
+-->
+
+<!--<div class="table-responsive"> -->
+    <table class="table">
+      <thead>
+        <tr>
+          <!--<th>Image</th>-->
+          <th>Event</th>
+          <th>Info</th>
+          <th style="min-width: 100px">When</th>
+          <th>Where</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="event of [eventsList]">
+          <!--<div *ngIf="i < 10">trying to limit results to 10-->
+            <!-- <td><img src="{{eventsList.events.event[0].image ? (eventsList.events.event[0].image.medium ? eventsList.events.event[0].image.medium.url : '') : ''}}" /></td> -->
+            <td>{{ eventsList.events.event[0].title }}</td>
+            <td [innerHTML]="eventsList.events.event[0].description"></td>
+            <td>{{ eventsList.events.event[0].start_time }}</td>
+            <td>{{ eventsList.events.event[0].venue_name }}</td>
+          <!--</div>end of limit div-->
+        </tr>
+        <!--1-->
+        <tr *ngFor="event of [eventsList]">
+          <!--<div *ngIf="i < 10">trying to limit results to 10-->
+            <!-- <td><img src="{{eventsList.events.event[1].image ? (eventsList.events.event[1].image.medium ? eventsList.events.event[1].image.medium.url : '') : ''}}" /></td> -->
+            <td>{{ eventsList.events.event[1].title }}</td>
+            <td [innerHTML]="eventsList.events.event[1].description"></td>
+            <td>{{ eventsList.events.event[1].start_time }}</td>
+            <td>{{ eventsList.events.event[1].venue_name }}</td>
+          <!--</div>end of limit div-->
+        </tr>
+        <!--2-->
+        <tr *ngFor="event of [eventsList]">
+          <!--<div *ngIf="i < 10">trying to limit results to 10-->
+            <!-- <td><img src="{{eventsList.events.event[2].image ? (eventsList.events.event[2].image.medium ? eventsList.events.event[2].image.medium.url : '') : ''}}" /></td> -->
+            <td>{{ eventsList.events.event[2].title }}</td>
+            <td [innerHTML]="eventsList.events.event[2].description"></td>
+            <td>{{ eventsList.events.event[2].start_time }}</td>
+            <td>{{ eventsList.events.event[2].venue_name }}</td>
+          <!--</div>end of limit div-->
+        </tr>
+        <!--3-->
+        <tr *ngFor="event of [eventsList]">
+          <!--<div *ngIf="i < 10">trying to limit results to 10-->
+            <!-- <td><img src="{{eventsList.events.event[3].image ? (eventsList.events.event[3].image.medium ? eventsList.events.event[3].image.medium.url : '') : ''}}" /></td> -->
+            <td>{{ eventsList.events.event[3].title }}</td>
+            <td [innerHTML]="eventsList.events.event[3].description"></td>
+            <td>{{ eventsList.events.event[3].start_time }}</td>
+            <td>{{ eventsList.events.event[3].venue_name }}</td>
+          <!--</div>end of limit div-->
+        </tr>
+      </tbody>
+    </table>

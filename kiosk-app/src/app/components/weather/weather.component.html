@@ -1,0 +1,21 @@
+<div class="weather-container">
+    <div class="location">
+        Weather in {{ currentWeather.name }}
+    </div>
+    <div class="current-temp">
+        <p style="line-height: 155px; vertical-align: middle; letter-spacing: -4px; word-spacing: -12px;">
+            {{ currentWeather.main.temp * 9/5 -459.67 | number:'1.0-0' }}
+            <sup style="font-size: 45px; letter-spacing: -2px;"> &deg;F</sup>
+        </p>
+    </div>
+    <div class="weather-icon">
+        <img src="{{ 'https://openweathermap.org/img/wn/' + currentWeather.weather[0].icon + '@2x.png' }}" height="150px" width="150px" align="left">
+    </div>
+    <div class="divider-weather"></div>
+    <div class="daily-hilow">
+        HI: {{ currentWeather.main.temp_max * 9/5 -459.67 | number:'1.0-0' }}&deg;F &nbsp;
+        LO: {{ currentWeather.main.temp_min * 9/5 -459.67 | number:'1.0-0' }}&deg;F
+    </div>
+    <div class="divider-weather"></div>
+    <app-airquality></app-airquality>
+</div>

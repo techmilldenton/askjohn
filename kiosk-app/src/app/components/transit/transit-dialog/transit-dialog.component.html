@@ -1,0 +1,21 @@
+
+<link rel="stylesheet" href="transit-dialog.component.css">
+<nav class="navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+          <h2>Routes</h2>
+      </div>
+      <a *ngFor="let route of routes.route;" [href]="viewerBase + route.url + viewerTail" target="ifrm" class="btn btn-default navbar-btn">{{ route.name }}</a>
+      <!--<a href="https://docs.google.com/viewer?url=https://www.dcta.net/sites/default/files/Schedules/COVID-19%20Schedules/Denton%20Route%201-COVID-19%20Modified%20Service%20Changes%20March23.pdf&embedded=true&rm=minimal" target="ifrm" class="btn btn-default navbar-btn">Route 1</a>
+      <a href="https://docs.google.com/viewer?url=https://www.dcta.net/sites/default/files/Schedules/COVID-19%20Schedules/Denton%20Route%202-COVID-19%20Modified%20Service%20Changes%20March23_Updated.pdf&embedded=true&rm=minimal" target="ifrm" class="btn btn-default navbar-btn">Route 2</a>--> 
+      <div class="pull-right">
+      </div>
+    </div>
+  
+  </nav>
+  
+<iframe name="ifrm" id="ifrm" src="" frameborder="0">
+    Your browser doesn't support iframes.
+</iframe>
+<script src="transit-dialog.js"></script>-->
+
