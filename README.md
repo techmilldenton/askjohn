@@ -104,8 +104,3 @@ and will consider the data gathered to be valid and useful to their work
 ### Construction
 - The cabinet MAY use a mix of plywood, structural lumber, metal studs, welded or bolted metal supports, and sheet metal.
 - The cabinet MAY resemble a coin-operated arcade video game
-
-## Software Design
-
-### System Requirements Specifications
-https://github.com/techmilldenton/askjohn/wiki/Software:-System-Requirements-Specifications
